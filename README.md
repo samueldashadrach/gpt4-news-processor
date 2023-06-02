@@ -33,7 +33,7 @@ OPENAI_API_KEY=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
 
 4. Run app using `node index.js`
 
-5. Call endpoints defined in `router.js` using Postman or any other HTTP client
+5. Call endpoints defined in `router.js` using Postman or any other HTTP client. Call `localhost:3000/init-db` once to initialise database tables, then call `localhost:3000/main`
 
 (App can be run locally or hosted on a service such as Render)
 
