@@ -19,17 +19,17 @@ Features supported as of 2 jun 2023:
 
 3. Add a .env file with the params:
 
-`
+```
 DBConnLink=
 OPENAI_API_KEY=
-`
+```
 
 Example .env file (note these credentials are incorrect):
 
-`
+```
 DBConnLink=postgres://me:1JaCdkEuiREpyVkMmMD5qCc6i6xkoOfY@dpg-choth0m7jbva90hsr2eg-a.singapore-postgres.render.com/news_7oav
 OPENAI_API_KEY=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
-`
+```
 
 4. Run app using `node index.js`
 
